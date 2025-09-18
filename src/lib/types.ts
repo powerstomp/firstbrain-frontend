@@ -12,5 +12,12 @@ type Message = {
 	text: string;
 	createdAt: Date;
 };
+type Flashcard = {
+	id: string;
+	front: string;
+	back: string;
+	createdAt: Date;
+	updatedAt: Date;
+};
 
-export type { User, Chat, Message };
+export type { User, Chat, Message, Flashcard };
