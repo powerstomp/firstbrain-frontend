@@ -57,7 +57,7 @@ export default function ChatInput({ onSend }: Props) {
 					onChange={(e) => setText(e.target.value)}
 					onPaste={handlePaste}
 					placeholder="Type a message..."
-					className="resize-none flex-1 border rounded p-2"
+					className="resize-none flex-1 border rounded p-2 field-sizing-content"
 					onKeyDown={handleKeyDown}
 				/>
 				<input
